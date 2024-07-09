@@ -1,0 +1,118 @@
+/* Importing from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("assets/background-image.jpg");
+    background-size: cover;
+}
+
+.outer-box{
+    width:500px;
+    padding:25px;
+    background-color: #ffffff41;
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.486);
+}
+
+
+h1,img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom:20px;
+}
+
+img{
+    height: 50px;
+    width:50px;
+}
+
+.input-box{
+    display:flex;
+    border: none;
+    border-radius: 55px;
+    background-color: white;
+    margin-bottom: 15px
+}
+.input-box input{
+    width:100%;
+    height:50px;
+    outline:none;
+    border: none;
+    border-radius: 55px;
+    padding:20px;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.input-box button{
+    padding:0px 25px;
+    outline:none;
+    border-radius: 55px;
+    border:none;
+    background-color: #FF5945;
+    color:white;
+    font-weight: bold;
+    font-size:1rem;
+}
+
+.task-box{
+    width:100%;
+    padding:0px 15px;
+    margin-bottom:25px;
+    box-sizing: border-box;
+}
+
+.task-box ul{
+    list-style: none;
+}
+
+.list{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom:5px
+}
+
+.taskbar{
+    font-weight:600;
+    font-size: 0.9rem;
+    background-color: rgba(255, 255, 255, 0.166);
+    padding:5px 6px;
+    border-radius: 3px;
+}
+
+#btns button{
+    margin-left:4px;
+    padding:3px 5px;
+    font-weight: bold;
+    border:none;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+
+@media(max-width:400px){
+    .outer-box{
+        width:350px;
+    }
+    .taskbar{
+        background-color: rgba(255, 255, 255, 0.555);
+    }
+}
+
+
+
+
